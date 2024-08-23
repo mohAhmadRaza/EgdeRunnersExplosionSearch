@@ -19,7 +19,6 @@ Optimized-2D-Infinite-Plane/
 
 ### 2. **README.md**
 
-```markdown
 # Optimized 2D Infinite Plane Project
 
 ## Introduction
@@ -65,14 +64,11 @@ We welcome contributions to further enhance this project. Please feel free to fo
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-```
+
 
 ### 3. **docs/methodology.md**
 
 This document explains the methodology behind the project.
-
-```markdown
-# Methodology
 
 ## Introduction
 
@@ -99,13 +95,12 @@ To convert 259 from base 10 to base 7:
 ## Conclusion
 
 By utilizing this method, we avoid the computational overhead associated with raising numbers to powers and instead use simpler subtraction operations.
-```
+
 
 ### 4. **docs/efficiency_analysis.md**
 
 This file provides a detailed analysis of the efficiency of the new method compared to traditional methods.
 
-```markdown
 # Efficiency Analysis
 
 ## Computational Complexity
@@ -133,13 +128,12 @@ By replacing multiplications with subtractions, we save on the computational cos
 ## Proof of Concept
 
 We conducted experiments comparing both methods on numbers ranging from \(10^3\) to \(10^6\). Results showed that our method reduced computational time by up to 30% on average.
-```
+
 
 ### 5. **docs/proofs.md**
 
 This file includes mathematical proofs to validate the methodology and efficiency claims.
 
-```markdown
 # Mathematical Proofs
 
 ## Proof of Correctness for Subtraction-Based Method
@@ -163,13 +157,12 @@ For the computational savings, we calculate the difference in CPU cycles for mul
 2. **Subtraction Cost**: Typically O(n) operations for integer subtraction.
 
 Since subtraction is less complex, the cumulative savings are significant for large `N`.
-```
+
 
 ### 6. **docs/examples.md**
 
 Provide some examples illustrating the difference in computational steps.
 
-```markdown
 # Examples
 
 ## Example 1: Base Conversion of 259 to Base 7
@@ -201,15 +194,14 @@ Provide some examples illustrating the difference in computational steps.
 ## Conclusion
 
 These examples clearly demonstrate the reduction in computational steps and illustrate the practical efficiency gains.
-```
+
 
 ### 7. **demo/demo_link.txt**
 
 Include a link to the demo application and add screenshots in the `demo/screenshots` folder.
 
-```
+
 # Demo Link
 
 [Demo Application](https://huggingface.co/spaces/eaglelandsonce/ExplosionSearch)
-```
 
